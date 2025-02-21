@@ -18,23 +18,23 @@ An event registration system.
 - Dashboard for Participants & Admin
 
 ## Project Sturcture
-event-registration-system/
-│── backend/                # Node.js + Express Backend
-│   ├── models/             # Mongoose models
-│   ├── routes/             # Express routes
-│   ├── controllers/        # Business logic
-│   ├── middleware/         # Auth middleware (JWT)
-│   ├── config/             # DB & env configuration
-│   ├── server.js           # Main backend entry
-│── frontend/               # React Frontend
-│   ├── src/
-│   │   ├── components/     # Reusable components
-│   │   ├── pages/          # Views (Login, Register, Dashboard)
-│   │   ├── context/        # Global state management
-│   │   ├── App.js          # Entry point
-│   │   ├── index.js        # Main React entry
-│── .env                    # Environment variables
-│── README.md               # Documentation
-│── package.json            # Dependencies
-│── yarn.lock / package-lock.json
+- event-registration-system/
+- │── backend/                # Node.js + Express Backend
+- │   ├── models/             # Mongoose models
+- │   ├── routes/             # Express routes
+- │   ├── controllers/        # Business logic
+- │   ├── middleware/         # Auth middleware (JWT)
+- │   ├── config/             # DB & env configuration
+- │   ├── server.js           # Main backend entry
+- │── frontend/               # React Frontend
+- │   ├── src/
+- │   │   ├── components/     # Reusable components
+- │   │   ├── pages/          # Views (Login, Register, Dashboard)
+- │   │   ├── context/        # Global state management
+- │   │   ├── App.js          # Entry point
+- │   │   ├── index.js        # Main React entry
+- │── .env                    # Environment variables
+- │── README.md               # Documentation
+- │── package.json            # Dependencies
+- │── yarn.lock / package-lock.json
 
