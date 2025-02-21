@@ -10,9 +10,31 @@ An event registration system.
 - Storage: Cloudinary (for storing participant profile pictures if required)
 
 ## Core Features
-✔- User Authentication (Login/Signup with JWT)
-✔- Event Creation & Management (Admin Panel)
-✔- Participant Registration (Form with validation)
-✔- QR Code for Registration Confirmation (Optional)
-✔- Responsive UI (Mobile-friendly)
-✔- Dashboard for Participants & Admin
+- User Authentication (Login/Signup with JWT)
+- Event Creation & Management (Admin Panel)
+- Participant Registration (Form with validation)
+- QR Code for Registration Confirmation (Optional)
+- Responsive UI (Mobile-friendly)
+- Dashboard for Participants & Admin
+
+## Project Sturcture
+event-registration-system/
+│── backend/                # Node.js + Express Backend
+│   ├── models/             # Mongoose models
+│   ├── routes/             # Express routes
+│   ├── controllers/        # Business logic
+│   ├── middleware/         # Auth middleware (JWT)
+│   ├── config/             # DB & env configuration
+│   ├── server.js           # Main backend entry
+│── frontend/               # React Frontend
+│   ├── src/
+│   │   ├── components/     # Reusable components
+│   │   ├── pages/          # Views (Login, Register, Dashboard)
+│   │   ├── context/        # Global state management
+│   │   ├── App.js          # Entry point
+│   │   ├── index.js        # Main React entry
+│── .env                    # Environment variables
+│── README.md               # Documentation
+│── package.json            # Dependencies
+│── yarn.lock / package-lock.json
+
