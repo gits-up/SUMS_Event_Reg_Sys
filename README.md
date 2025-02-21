@@ -10,9 +10,9 @@ An event registration system.
 - Storage: Cloudinary (for storing participant profile pictures if required)
 
 ## Core Features
-✔️ User Authentication (Login/Signup with JWT)
-✔️ Event Creation & Management (Admin Panel)
-✔️ Participant Registration (Form with validation)
-✔️ QR Code for Registration Confirmation (Optional)
-✔️ Responsive UI (Mobile-friendly)
-✔️ Dashboard for Participants & Admin
+✔- User Authentication (Login/Signup with JWT)
+✔- Event Creation & Management (Admin Panel)
+✔- Participant Registration (Form with validation)
+✔- QR Code for Registration Confirmation (Optional)
+✔- Responsive UI (Mobile-friendly)
+✔- Dashboard for Participants & Admin
