@@ -1,40 +1,43 @@
-# SUMS_Event_Reg_Sys
-An event registration system.
+# User Authentication
 
-## Tech Stack & Features
-- Frontend: React (Vite), TailwindCSS, Axios, React Router
-- Backend: Node.js, Express.js
-- Database: MongoDB (Mongoose for ORM)
-- Authentication: JWT + bcrypt for password hashing
-- QR Code Generation: If needed for attendance tracking (using qrcode npm package)
-- Storage: Cloudinary (for storing participant profile pictures if required)
+Login/Sign-Up with JWT authentication.
+Role-based access (Organizer/Admin, Team Members).
 
-## Core Features
-- User Authentication (Login/Signup with JWT)
-- Event Creation & Management (Admin Panel)
-- Participant Registration (Form with validation)
-- QR Code for Registration Confirmation (Optional)
-- Responsive UI (Mobile-friendly)
-- Dashboard for Participants & Admin
+# Task Management
 
-## Project Sturcture
-- event-registration-system/
-- │── backend/                # Node.js + Express Backend
-- │   ├── models/             # Mongoose models
-- │   ├── routes/             # Express routes
-- │   ├── controllers/        # Business logic
-- │   ├── middleware/         # Auth middleware (JWT)
-- │   ├── config/             # DB & env configuration
-- │   ├── server.js           # Main backend entry
-- │── frontend/               # React Frontend
-- │   ├── src/
-- │   │   ├── components/     # Reusable components
-- │   │   ├── pages/          # Views (Login, Register, Dashboard)
-- │   │   ├── context/        # Global state management
-- │   │   ├── App.js          # Entry point
-- │   │   ├── index.js        # Main React entry
-- │── .env                    # Environment variables
-- │── README.md               # Documentation
-- │── package.json            # Dependencies
-- │── yarn.lock / package-lock.json
+Create, assign, edit, and delete tasks.
+Set deadlines and track task progress.
+Task priority levels (High, Medium, Low).
+Notifications/reminders for due tasks.
 
+# Dashboard
+
+Overview of tasks and deadlines.
+Task progress tracking with status updates.
+Filtering and sorting options.
+
+# Team Collaboration
+
+Assign tasks to team members.
+Comments/updates on task progress.
+
+# UI/UX Design
+
+Minimalist and modern UI using Material-UI (MUI).
+Fully responsive across desktop, tablet, and mobile.
+
+## Development Plan
+- Frontend (React + MUI)
+- Set up React with MUI for styling.
+- Create reusable components (Task Card, Dashboard, Login, etc.).
+- Integrate authentication and API calls.
+- Backend (Node.js + Express + MongoDB)
+- Set up authentication with JWT.
+- Create REST APIs for task management.
+- Implement role-based access control.
+- Database (MongoDB)
+- Store user credentials, tasks, and team assignments.
+- Deployment
+- Frontend: Vercel/Netlify
+- Backend: Render/Heroku
+- Database: MongoDB Atlas
